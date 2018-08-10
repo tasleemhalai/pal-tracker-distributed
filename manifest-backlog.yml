@@ -7,4 +7,5 @@ applications:
   instances: 1
   env:
     REGISTRATION_SERVER_ENDPOINT: http://registration-pal-th.apps.evans.pal.pivotal.io
+  services:
   - tracker-backlog-database
