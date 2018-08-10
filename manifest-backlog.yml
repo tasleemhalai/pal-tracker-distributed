@@ -6,6 +6,5 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://backlog-pal-th.apps.evans.pal.pivotal.io
-  services:
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-th.apps.evans.pal.pivotal.io
   - tracker-backlog-database
